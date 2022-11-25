@@ -63,7 +63,7 @@ const TaskForm = () => {
         <input  className='w-full p-2 rounded-md bg-zinc-600 mb-2' type="text" value={task.title} onChange={handleChange} name='title' placeholder="Write a task"/>
         <br/> 
         <br/>
-        <label htmlFor="description" className='block mb-2 text-xs font-bold'>Title</label>
+        <label htmlFor="description" className='block mb-2 text-xs font-bold'>descripcion</label>
         <textarea  className='w-full p-2 rounded-md bg-zinc-600 mb-2'  name='description' value={task.description} onChange={handleChange} placeholder="Write a description"/>
         <br/>
         <br/>
